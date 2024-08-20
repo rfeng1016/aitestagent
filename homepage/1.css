@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.radio-group {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to next line */
+}
+
+.radio-group label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    width: 150px; /* Set a fixed width for consistency */
+    justify-content: flex-start; /* Align items to the start (left) */
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+.center-button {
+    display: block;
+    margin: 0 auto; /* 自动边距，用于水平居中 */
+    margin-top: 20px; /* 可根据需要调整上边距 */
+}

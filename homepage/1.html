@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Radio Buttons</title>
+    <link rel="stylesheet" href="1.css">
+    <script src="1.js"></script>
+</head>
+<body>
+    <form id="myForm">
+        <div class="radio-group">
+            <label>
+                存在：
+                <input type="radio" name="option1" value="Existence">
+                存在
+            </label>
+        </div>
+        <div class="radio-group">
+            <label>
+                物质：
+                <input type="radio" name="option2" value="Solid Matter">
+                固态物质
+            </label>
+            <label>
+                <input type="radio" name="option2" value="Gaseous Matter">
+                气态物质
+            </label>
+        </div>
+        <div class="radio-group">
+            <label>
+                元素：
+                <input type="radio" name="option3" value="Hydrogen">
+                氢
+            </label>
+            <label>
+                <input type="radio" name="option3" value="Oxygen">
+                氧
+            </label>
+            <label>
+                <input type="radio" name="option3" value="Carbon">
+                碳
+            </label>
+        </div>
+        <div class="radio-group">
+            <label>
+                化合：
+                <input type="radio" name="option4" value="Water">
+                水
+            </label>
+            <label>
+                <input type="radio" name="option4" value="Hydrochloric Acid">
+                盐酸
+            </label>
+            <label>
+                <input type="radio" name="option4" value="Glucose">
+                葡萄糖
+            </label>
+            <label>
+                <input type="radio" name="option4" value="Carbon Dioxide">
+                二氧化碳
+            </label>
+        </div>
+        <div class="radio-group">
+            <label>
+                物体：
+                <input type="radio" name="option5" value="Rock">
+                岩石
+            </label>
+            <label>
+                <input type="radio" name="option5" value="Book">
+                书籍
+            </label>
+            <label>
+                <input type="radio" name="option5" value="Tree">
+                树木
+            </label>
+            <label>
+                <input type="radio" name="option5" value="Key">
+                钥匙
+            </label>
+            <label>
+                <input type="radio" name="option5" value="Sculpture">
+                雕塑
+            </label>
+        </div>
+        <div class="radio-group">
+            <label>
+                工具：
+                <input type="radio" name="option6" value="Stone Axe">
+                石斧
+            </label>
+            <label>
+                <input type="radio" name="option6" value="Bow and Arrow">
+                弓箭
+            </label>
+            <label>
+                <input type="radio" name="option6" value="Sickle">
+                镰刀
+            </label>
+            <label>
+                <input type="radio" name="option6" value="Hammer">
+                锤子
+            </label>
+            <label>
+                <input type="radio" name="option6" value="Screwdriver">
+                螺丝刀
+            </label>
+            <label>
+                <input type="radio" name="option6" value="Computer">
+                计算机
+            </label>
+        </div>
+        <!-- 添加提交按钮 -->
+        <button type="button" class="center-button" onclick="showSelectedOptions()">提交</button>
+        
+        <!-- 添加一个区域用来展示选中的选项 -->
+        <div id="selectedOptions" style="margin-top: 10px;"></div>
+    </form>
+</body>
+</html>
